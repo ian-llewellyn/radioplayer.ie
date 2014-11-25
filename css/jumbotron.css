@@ -21,6 +21,15 @@ body {
   border-color: #161;
   margin: 3px;
 }
+.btn-primary:hover {
+  background-color: #383;
+  border-color: #363;
+}
+.btn-primary:focus {
+  background-color: #060;
+  border-color: #363;
+}
+
 .panel-primary {
   border-color: #181;
 }
@@ -34,4 +43,7 @@ body {
   margin-top: -75px;
   height: 75px;
   visibility: hidden;
+}
+a:hover {
+  text-decoration: none
 }
