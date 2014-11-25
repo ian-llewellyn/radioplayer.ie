@@ -28,3 +28,10 @@ body {
   background-color: #181;
   border-color: #181;
 }
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
