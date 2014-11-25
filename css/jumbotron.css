@@ -3,3 +3,28 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+.navbar-brand > img {
+  margin-top: -9px;
+  height: 38px;
+}
+.jumbotron {
+  background-color: #222323;
+  background-image: url('../images/ribbon-bg.png');
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: #ddd;
+}
+.btn-primary {
+  background-color: #181;
+  border-color: #161;
+  margin: 3px;
+}
+.panel-primary {
+  border-color: #181;
+}
+.panel-primary > .panel-heading {
+  background-color: #181;
+  border-color: #181;
+}
