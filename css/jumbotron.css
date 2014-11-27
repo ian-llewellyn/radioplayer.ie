@@ -19,6 +19,9 @@ body {
   text-align: center;
   color: #ddd;
 }
+.jumbotron h1 {
+  color: #fff;
+}
 .btn-primary {
   background-color: #181;
   border-color: #161;
