@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^privacy$ privacy.html [L]
+RewriteRule ^support$ support.html [L]
