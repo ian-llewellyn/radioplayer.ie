@@ -53,10 +53,6 @@ body {
 a:hover {
   text-decoration: none;
 }
-dl {
-  padding-right: 33%;
-  min-width: 800px;
-}
 dt {
   margin-top: 1em;
 }
