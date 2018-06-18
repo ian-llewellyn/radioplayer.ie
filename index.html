@@ -4,11 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Listen to Irish radio stations in one App on your Android or Apple device. RT&Eacute; and the IBI have collaborated to bring one free App to market that makes listening to Irish radio stations a whole lot easier.">
+    <meta name="description" content="The Irish Radioplayer is the official Irish Radio mobile app available for both Apple and Android devices. Our aim is to make it a cinch to listen to radio on your smartphone or tablet. Every radio station in the Republic of Ireland is available on the app. You can listen live, catch up on programmes and view social feeds from the stations. No need to change site or app, it's all there in one place.">
     <meta name="author" content="Irish Radioplayer">
     <link rel="icon" href="favicon.ico">
 
     <title>Irish Radioplayer - Learn More, Download, Dive In</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+  
+    <meta property="og:url"                content="https://radioplayer.ie/" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="Irish Radioplayer - Learn More, Download, Dive In" />
+    <meta property="og:description"        content="The Irish Radioplayer is the official Irish Radio mobile app available for both Apple and Android devices. Our aim is to make it a cinch to listen to radio on your smartphone or tablet. Every radio station in the Republic of Ireland is available on the app. You can listen live, catch up on programmes and view social feeds from the stations. No need to change site or app, it's all there in one place." />
+    <meta property="og:image"              content="images/facebook.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +41,8 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!--
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -48,62 +61,67 @@
             <li><a href="/privacy">Privacy</a></li>
             <li><a href="/support">Support</a></li>
           </ul>
-        </div><!--/.navbar-collapse -->
+        </div><!--/.navbar-collapse 
       </div>
     </nav>
 
+    -->
+    
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>Irish Radioplayer</h1>
-        <p>The App that makes listening to stations you love a whole lot easier. RTÉ and the Independent Broadcasters of Ireland have collaborated to launch one App that brings Irish Radio stations to your Android and Apple devices. And what's more, it's really simple to use. Download and dive in!</p>
-        <p><a class="btn btn-primary btn-lg" href="/faq" role="button">Learn More &raquo;</a><a class="btn btn-primary btn-lg" href="#download" role="button">Download &raquo;</a></p>
+      <div class="fullscreen-bg">
+          <video loop muted autoplay poster="video/bg.jpg" class="fullscreen-bg__video">
+            <source src="video/bg.mp4" type="video/mp4">
+            <source src="video/bg.ogg" type="video/ogg">
+            <source src="video/bg.webm" type="video/webm">
+          </video>
       </div>
+
+      <div class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="right-content">
+                        <a href="https://play.google.com/store/apps/details?id=ie.radioplayer.android" rel="noopener noreferrer" target="blank">
+                            <img src="images/googleplay.png" alt="Google Play">
+                        </a>
+                        <a href="https://appsto.re/ie/3hll4.i" rel="noopener noreferrer" target="blank">
+                            <img src="images/appstore.png" alt="App Store">
+                        </a>
+                          
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="left-content pull-right">
+                          <img src="images/radioplayerlogo.png" alt="Radio Player">
+                      </div>
+                  </div>
+              </div>
+
+
+
+
+            
+
+            
+
+
+
+          </div>
+
+      </div>
+
     </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row" style="text-align: center">
-        <div class="col-md-4">
-          <h2>Swipe sideways to explore Irish Radio</h2>
-          <p><img src="images/explore.png" alt="Station list"/></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Catch up on your favourite shows</h2>
-          <p><img src="images/catch-up.png" alt="Series link"/></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Listening at the wheel? Turn on Car Mode</h2>
-          <p><img src="images/car-mode.png" alt="Car mode"/></p>
-        </div>
-      </div>
-
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3 class="panel-title"><a name="download" id="download">Download the App</a></h3>
-        </div>
-        <div class="panel-body">
-          <a href="https://play.google.com/store/apps/details?id=ie.radioplayer.android">
-            <img alt="Get it on Google Play" src="images/googleplay.svg" style="height: 40px"/>
-          </a>
-          <a href="https://appsto.re/ie/3hll4.i">
-            <img alt="Download on the App Store" src="images/appstore.svg" style="height: 40px"/>
-          </a>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Irish Radioplayer 2015</p>
-      </footer>
-    </div> <!-- /container -->
+    
+    
+    
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
